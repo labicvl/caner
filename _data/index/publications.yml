@@ -1,0 +1,119 @@
+- title: "A Review on Object Pose Recovery: From 3D Bounding Box Detectors to Full 6D Pose Estimators"
+  authors: "<b>C. Sahin</b>, G. Garcia-Hernando, J. Sock, T-K. Kim"
+  venue:  "Journal of Image and Vision Computing (IVC)"
+  year: 2020
+  comments: In Press
+  paper_local:
+  web: https://doi.org/10.1016/j.imavis.2020.103898
+- title: "Instance- and Category-level 6D Object Pose Estimation"
+  authors: "<b>C. Sahin</b>, G. Garcia-Hernando, J. Sock, T-K. Kim"
+  venue:  "book chapter in RGB-D Image Analysis and Processing, Springer"
+  year: 2019
+  comments:
+  paper_local: book_chapter_2019.pdf
+  web:
+- title: "Category-level 6D Object Pose Recovery in Depth Images"
+  authors: "<b>C. Sahin</b>, T-K. Kim"
+  venue:  "ECCVW on R6D, (oral)"
+  year: 2018
+  paper_local: ECCVW_2018_R6D_oral.pdf 
+  web:
+- title: "Recovering 6D Object Pose: A Review and Multi-modal Analysis"
+  authors: "<b>C. Sahin</b>, T-K. Kim"
+  venue:  "ECCV workshop on Assistive Computer Vision and Robotics (ACVR)"
+  year: 2018
+  paper_local: ECCVW_2018_ACVR.pdf 
+  web:
+- title: "BOP: Benchmark for 6D Object Pose Estimation"
+  authors: "T. Hodan, F. Michel, E. Brachmann, W. Kehl, A. Buch, D. Kraft, B. Drost, J. Vidal, S. Ihrke, X. Zabulis, <b>C. Sahin</b>, F. Manhardt, F. Tombari, T-K. Kim, J. Matas, C. Rother"
+  venue:  "ECCV"
+  year: 2018
+  paper_local: ECCV_2018.pdf
+  web:
+- title: "Multi-Task Deep Networks for Depth-Based 6D Object Pose and Joint Registration in Crowd Scenarios"
+  authors: "J. Sock, K.I. Kim, <b>C. Sahin</b>, T-K. Kim"
+  venue:  "BMVC"
+  year: 2018
+  comments: 
+  paper_local: BMVC_2018.pdf
+  web:    
+  dataset: 
+- title: "A Learning-based Variable Size Part Extraction Architecture for 6D Object Pose Recovery in Depth Images"
+  authors: "<b>C. Sahin</b>, R. Kouskouridas, T-K. Kim"
+  venue: "Journal of Image and Vision Computing (IVC)"
+  year: 2017
+  comments: 63:38-50
+  paper: 
+  paper_local: IVC_2017.pdf
+  web:
+  dataset:
+- title: "Pose Guided RGBD Feature Learning for 3D Object Pose Estimation"
+  authors: "V. Balntas, A. Doumanoglou, <b>C. Sahin</b>, J. Sock, R. Kouskouridas, T-K. Kim"
+  venue:  "ICCV"
+  year: 2017
+  comments:
+  paper: 
+  paper_local: ICCV_2017.pdf
+  web:
+  dataset:
+- title: "Iterative Hough Forest with Histogram of Control Points for 6 DoF Object Registration from Depth Images"
+  authors: "<b>C. Sahin</b>, R. Kouskouridas, T-K. Kim"
+  venue: "IROS"
+  year: 2016
+  comments:
+  paper: 
+  paper_local: IROS_2016.pdf
+  web:
+  dataset:
+- title: "Under Vehicle Perception for High Level Safety Measures Using a Catadioptric Camera System"
+  authors: "<b>C. Sahin</b>, M. Unel"
+  venue: "IECON"
+  year: 2013
+  comments:
+  paper: 
+  paper_local: IECON_2013.pdf
+  web:
+  dataset:
+- title: "Performance Improvement in vSLAM Using Stabilized Feature Points"
+  authors: "<b>C. Sahin</b>, M. Unel"
+  venue: "Mathematical and Computational Applications (MCA)"
+  year: 2013
+  comments: "Vol. 18, No. 3, pp. 361-372"
+  paper: 
+  paper_local: MCA_2013.pdf
+  web:
+  dataset:
+- title: "Tum Yonlu Kamera Kullanan Bir Mobil Robot ile Arac Alti Goruntuleme Sistemi"
+  authors: "<b>C. Sahin</b>, M. Unel"
+  venue: "TOK’13: Otomatik Kontrol Ulusal Toplantisi"
+  year: 2013
+  comments: 
+  paper: 
+  paper_local: 
+  web:
+  dataset:
+- title: "Gorsel Tabanli Atalet Olcum Unitesi ile Quadrotor Durum Tahmini ve Navigasyonu"
+  authors: "<b>C. Sahin</b>, M. Unel"
+  venue: "TOK’12: Otomatik Kontrol Ulusal Toplantisi"
+  year: 2012
+  comments: 
+  paper: 
+  paper_local: 
+  web:
+  dataset:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

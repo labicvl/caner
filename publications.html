@@ -1,0 +1,46 @@
+---
+layout: page
+title:  Publications
+permalink: /publications/
+---
+
+<div class="publications">
+  <div class="timeline" id="timeline">
+    {% for publication in site.data.index.publications %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+
+    {% if publication.year != site.data.index.publications[prev_i].year or next_i == 1 %}
+    <div class="publications-title">
+      <h4 class="publications-year">{{ publication.year }}</h4>
+    </div>
+    <ul>
+    {% endif %}
+    <li>
+   	     <p style="margin: 0"><b>{{ publication.title }}</b></p>
+   	     <p style="margin: 0">{{ publication.authors  }}</p>
+         <p style="margin: 0">{{ publication.venue }} {{ publication.year }} {{ publication.comments }}</p>
+         {% if publication.paper %}
+         <a href=" {{publication.paper}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.paper_local %}
+         <a href=" {{ site.url }}/download/{{publication.paper_local}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.web %}
+         <a href="{{ publication.web}} "><i class="fa fa-fw fa-home"></i>Project</a>
+         {% endif %}
+         {% if publication.dataset %}
+         <a href="{{ publication.dataset}} "><i class="fa fa-fw fa-download"></i>Dataset</a>
+         {% endif %}
+
+
+</li>
+    {% if publication.year != site.data.index.publications[next_i].year %}
+    </ul>
+    {% endif %}
+
+    {% endfor %}
+
+
+  </div>
+  </div>
